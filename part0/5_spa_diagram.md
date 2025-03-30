@@ -5,7 +5,7 @@ sequenceDiagram
 
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/spa
     server activated
-    server-->>browser: HMTL document
+    server-->>browser: HTML document
     server deactivated
 
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/main.css
